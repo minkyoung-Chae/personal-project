@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".SecondActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1.5"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:id="@+id/first_textView"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_margin="10dp"
+            android:text=""
+            android:textSize="30dp" />
+
+        <TextView
+            android:id="@+id/second_textView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="10dp"
+            android:layout_weight="2"
+            android:text=""
+            android:textSize="30dp" />
+
+    </LinearLayout>
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:columnCount="4"
+        android:orientation="horizontal"
+        android:rowCount="5">
+
+        <Button
+            android:id="@+id/clear"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:layout_margin="-5dp"
+            android:textSize="25dp"
+            android:text="C"
+            android:background="@color/white"/>
+
+        <Button
+            android:id="@+id/pi"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:layout_margin="-5dp"
+            android:textSize="25dp"
+            android:text="π"
+            android:textAllCaps="false"/>
+
+        <Button
+            android:id="@+id/log"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:layout_margin="-5dp"
+            android:textSize="25dp"
+            android:text="log"
+            android:textAllCaps="false"/>
+
+        <Button
+            android:id="@+id/nextpage"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:layout_margin="-5dp"
+            android:textSize="25dp"
+            android:text="→" />
+
+
+        <Button
+            android:id="@+id/sin"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:layout_margin="-5dp"
+            android:textSize="25dp"
+            android:text="sin"
+            android:textAllCaps="false"/>
+
+        <Button
+            android:id="@+id/cos"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:layout_margin="-5dp"
+            android:textSize="25dp"
+            android:text="cos"
+            android:textAllCaps="false"/>
+
+        <Button
+            android:id="@+id/tan"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:layout_margin="-5dp"
+            android:textSize="25dp"
+            android:text="tan"
+            android:textAllCaps="false" />
+
+        <Button
+            android:id="@+id/mul"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:layout_margin="-5dp"
+            android:textSize="25dp"
+            android:text="x"
+            android:textAllCaps="false"/>
+
+
+        <Button
+            android:id="@+id/square_root"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:layout_margin="-5dp"
+            android:textSize="25dp"
+            android:text="a√b" />
+
+        <Button
+            android:id="@+id/square2"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:layout_margin="-5dp"
+            android:textSize="25dp"
+            android:text="x^2"
+            android:textAllCaps="false"/>
+
+        <Button
+            android:id="@+id/square3"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:layout_margin="-5dp"
+            android:textSize="25dp"
+            android:text="x^3"
+            android:textAllCaps="false"/>
+
+        <Button
+            android:id="@+id/sub"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:layout_margin="-5dp"
+            android:textSize="25dp"
+            android:text="-" />
+
+
+        <Button
+            android:id="@+id/ln"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:layout_margin="-5dp"
+            android:textSize="25dp"
+            android:text="ln"
+            android:textAllCaps="false"/>
+
+        <Button
+            android:id="@+id/euler"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:layout_margin="-5dp"
+            android:textSize="25dp"
+            android:text="e"
+            android:textAllCaps="false"/>
+
+        <Button
+            android:id="@+id/factorial"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:layout_margin="-5dp"
+            android:textSize="25dp"
+            android:text="x!"
+            android:textAllCaps="false"/>
+
+        <Button
+            android:id="@+id/add"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:layout_margin="-5dp"
+            android:textSize="25dp"
+            android:text="+"
+            />
+
+
+        <Button
+            android:id="@+id/back"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:layout_margin="-5dp"
+            android:textSize="25dp"
+            android:text="←" />
+
+        <Button
+            android:id="@+id/square"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:layout_margin="-5dp"
+            android:textSize="25dp"
+            android:text="a^b"
+            android:textAllCaps="false"/>
+
+        <Button
+            android:id="@+id/dot"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:layout_margin="-5dp"
+            android:textSize="25dp"
+            android:text="." />
+
+        <Button
+            android:id="@+id/equal"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:layout_margin="-5dp"
+            android:textSize="25dp"
+            android:text="=" />
+
+    </GridLayout>
+</LinearLayout>
